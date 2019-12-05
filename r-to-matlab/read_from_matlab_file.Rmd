@@ -1,0 +1,24 @@
+---
+title: "read matlab file"
+output: html_notebook
+---
+
+https://stackoverflow.com/a/45921274/5270873
+
+```{r}
+library(matconv)
+```
+
+
+```{r}
+out <- mat2r(inMat = "midpoint.m")
+```
+
+```{r}
+eval(parse(text=out$rCode[1]))
+```
+
+```{r}
+out$rCode
+```
+

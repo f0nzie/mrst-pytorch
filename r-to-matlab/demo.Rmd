@@ -1,0 +1,43 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(matconv)
+```
+
+```{r}
+dataMap <- makeDataMap("[", "]", "matrix")
+dataMap("thing <- [23,2, 3.2; 7, 6, 8]")
+# "thing <- matrix(c(23, 2, 3.2, 7, 6, 8), nrow = 2, ncol = 3)"
+```
+
+
+```{r}
+dataMap <- makeDataMap(rClass = "list", matClass = "cell")
+dataMap("otherThing <- {23,2,'3.2'; NaN, 6, 8}")
+# "otherThing <- list(list(23, 2,'3.2'), list(NaN, 6, 8))
+```
+
+
+```{r}
+matIn <- c("function [ dat ] = xlsReadPretty(varargin)","  
+           didThing = 1*3;","  dat = didThing / 3;","end")
+
+mat2r(matIn, verbose = 0)$rCode
+```
+
+
+```{r}
+sliceMap <- makeSliceMap("{", "}", "list")
+sliceMap("junk <- importData{300}")
+# "junk <- importData[[300]]"
+```
+
+```{r}
+sliceMap <- makeSliceMap(matClass = "structure", rClass = "list")
+sliceMap("junk <- students.AP.GPA")
+# junk <- students[['AP']][['GPA']]
+```
+

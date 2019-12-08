@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 octave-workspace
+.vscode/settings.json

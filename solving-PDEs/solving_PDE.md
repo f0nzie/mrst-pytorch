@@ -41,3 +41,8 @@ To solve PDEs with `pdepe`, you must define the equation coefficients for *c*, *
 
 Together, the `xmesh` and `tspan` vectors form a 2-D grid that `pdepe` evaluates the solution on.
 
+
+## References
+
+* [Computing the Jacobian matrix of a neural network in Python](https://medium.com/unit8-machine-learning-publication/computing-the-jacobian-matrix-of-a-neural-network-in-python-4f162e5db180)
+

@@ -2,7 +2,7 @@
 
 ## GPU accelerated for MRST (proof of concept)
 
-I started today (Dec 5) work on the evaluation and **Proof of Concept** to port the Matlab Reservoir Simulator [MRST][MRST] to [PyTorch][PyTorch] for [GPU][GPU] acceleration.
+I started today (Dec 5) work on the evaluation and **Proof of Concept** to port the Matlab Reservoir Simulator [MRST][MRST] to [PyTorch](https://pytorch.org/){target="_blank"} for [GPU][GPU] acceleration.
 
 Part of the work requires the Eclipse datasets from SPE papers for testing. MRST. I have uploaded most important datasets to its own repository. See references below.
 

@@ -24,5 +24,6 @@ dependencies:
     - future==0.18.2
     - lmdb==0.98
     - tensorboardx==1.9
+    - torchsummary==1.5.1    
 prefix: /home/msfz751/anaconda3/envs/machine-learning
 

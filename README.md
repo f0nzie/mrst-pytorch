@@ -50,6 +50,10 @@ Started by testing  Jacobians with TensorFlow. See references for code.
 
 #petroleumengineering #spe #oilandgas #reservoirengineering #computationalphysics
 
+
+
+
+
 [MRST]: https://www.sintef.no/projectweb/mrst/
 [book-mrst]: https://www.cambridge.org/core/books/an-introduction-to-reservoir-simulation-using-matlabgnu-octave/F48C3D8C88A3F67E4D97D4E16970F894
 [PyTorch]: https://pytorch.org/

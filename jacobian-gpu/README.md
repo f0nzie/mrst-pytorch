@@ -4,6 +4,7 @@
 
 ## Jacobian solutions with TensorFlow and PyTorch
 
-* Other have tried Jacobians with TensorFlow but only in CPU
-* There are couple of scientific (physics) experiments run in PyTorch with GPU
+* Jacobians have been tried with TensorFlow but only in CPUs
+* There are a couple of scientific (physics) experiments run in PyTorch with GPU. 
+    * todo: Add links to papers, articles
 

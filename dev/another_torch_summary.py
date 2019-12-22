@@ -49,4 +49,28 @@ def summary_0(model, file=sys.stderr):
         print(string, file=file)
     # return count
 
-summary_0(model_pt)    
+
+if __name__ == "__main__":
+    import numpy as np
+    import torch
+    from torch import nn
+
+    N = 500  # Input size
+    H = 100  # Hidden layer size
+    O = 10   # Output size
+
+    w1 = np.random.randn(N, H)
+    b1 = np.random.randn(H)
+
+    w2 = np.random.randn(H, O)
+    b2 = np.random.randn(O)
+
+    model_pt = nn.Sequential(nn.Linear(N, H),
+                      nn.ReLU(),
+                      nn.Linear(H, O),
+                      nn.Softmax(dim=0)
+                      )
+
+    print(model_pt)
+
+    summary_0(model_pt)    

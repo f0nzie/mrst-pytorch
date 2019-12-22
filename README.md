@@ -37,6 +37,28 @@ Started by testing  Jacobians with TensorFlow. See references for code.
 
 
 
+## Posts
+
+### Post (1/n)
+
+https://www.linkedin.com/posts/alfonsorreyes_f0nziereservoirdatasets-activity-6608176122876264448-gwST
+
+![image-20191222110513683](README.assets/image-20191222110513683.png)
+
+
+
+### Post (2/n)
+
+https://www.linkedin.com/posts/alfonsorreyes_mrst-pde-reservoirsimulation-activity-6609474020737941504-8GaW
+
+![image-20191222110339257](README.assets/image-20191222110339257.png)
+
+### Post (3/n)
+
+https://www.linkedin.com/posts/alfonsorreyes_mrst-matlab-pytorch-activity-6613066657558556672-wQYA
+
+![image-20191222104821690](README.assets/image-20191222104821690.png)
+
 ## References
 
 * Code and notebooks: https://github.com/f0nzie/mrst-pytorch

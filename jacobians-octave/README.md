@@ -4,7 +4,7 @@
 
 ## Status
 
-These Jacobian functions run fine in `Octave`
+These Jacobian functions run fine in `Octave`. I am trying to stay away from Matlab.
 
 Simple Jacobians at the moment; testing functionality.
 
